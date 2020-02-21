@@ -39,7 +39,7 @@ You don’t have to set a label when encrypting the file.
 - Rerun the playbook providing the password for decrypting `secret_vars.yml` from the file `vaultpassword`.
 
 {{% notice tip %}}
-Since the password is in cleartext in the file vaultpassword, you shoul never ever push it to a git repository or similar. Also doublecheck that only the necessary permissions are set.
+Since the password is in cleartext in the file vaultpassword, you should never ever push it to a git repository or similar. Also doublecheck that only the necessary permissions are set.
 {{% /notice %}}
 
 
