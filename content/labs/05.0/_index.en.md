@@ -101,6 +101,9 @@ $ cat roles/base/defaults/main.yml
 # defaults file for base
 motd_content: "This is a server\n"
 
+$ cat roles/base/templates/motd.j2
+{{ motd_content }}
+
 $ ls roles/base/tasks/
 main.yml      motd.yml      packages.yml
 
